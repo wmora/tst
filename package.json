@@ -1,0 +1,28 @@
+{
+  "name": "twitterstories",
+  "version": "1.0.0",
+  "description": "Twitter Stories",
+  "main": "app.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint . --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wmora/tst.git"
+  },
+  "keywords": [
+    "twitter",
+    "stories"
+  ],
+  "author": "William Mora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wmora/tst/issues"
+  },
+  "homepage": "https://github.com/wmora/tst#readme",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}
