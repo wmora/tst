@@ -12,6 +12,8 @@ class SignInButton extends Component {
 
 const startSignInFlow = () => {
   // TODO: start sign in flow
+  // fetchRequestToken()
+  // redirectUser()
 };
 
 export default SignInButton;

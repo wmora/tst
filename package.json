@@ -4,8 +4,9 @@
   "description": "Twitter Stories",
   "main": "app.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint . --quiet",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint . --ext .js --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,10 @@
   "devDependencies": {
     "eslint": "^4.15.0",
     "eslint-plugin-react": "^7.5.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11",
+    "twitter": "^1.7.1"
   }
 }
